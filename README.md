@@ -25,9 +25,9 @@ $ apt install python3 docker-compose -y
 Want to contribute? Great!
 
 CellTower can use extra modules ! The tool made this way to simplify the process of contribution. There are *only* three steps. 
-1 - Add your customized module inside **modules** directory. 
-2 - Then Write a function in Utilities.py to call your module.
-3 - Finally, edit MyPrompt class in Tower-CLI.py to support your module.
+ - Add your customized module inside **modules** directory. 
+ - Then Write a function in Utilities.py to call your module.
+ - Finally, edit MyPrompt class in Tower-CLI.py to support your module.
 
 
 License
