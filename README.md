@@ -1,12 +1,11 @@
 # CellTower
 
-CellTower is a tool used to log credentials, events, and any type of data. The data can be sorted and printed in the command line using Tower-CLI.py or on browsers using Kibana Dashboard. 
+CellTower is a tool used to log credentials, events, and any type of data. The data can be sorted and printed in the command line using Tower-CLI.py or on browsers using Kibana Dashboard. It uses elk stack and other different scripts to be used by other red team tools I wrote on Github.com/M507. 
 
 ### Overview
-  - Tower-CLI.py, uses pre-made modules. 
-
-### Tech
-CellTower uses a number of projects to work properly:
+  - Tower-CLI.py, uses pre-made modules.
+  
+### Dependencies
 * Docker-compose
 * Python3
 
@@ -17,7 +16,7 @@ Install the dependencies and devDependencies and start the server.
 $ apt install python3 docker-compose -y
 ```
 
-### Disclaimer: The tool is not made to face public networks.
+### Note: The tool is not made to face public networks.
 
 
 ### Development
